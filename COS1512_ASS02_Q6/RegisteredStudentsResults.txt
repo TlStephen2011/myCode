@@ -1,0 +1,36 @@
+Student name: John Martin
+Student ID: 78120189
+Student number: 12345
+Diploma name: Garden Design
+
+G1: 55
+G2: 65
+G3: 59
+G4: 68
+G5: 60
+AVERAGE MARK: 61.4
+
+Student name: Busi Molefe
+Student ID: 81011201
+Student number: 23456
+Diploma name: Gourmet Cooking
+
+C1: 69
+C2: 71
+C3: 66
+C4: 59
+C5: 63
+AVERAGE MARK: 65.6
+
+Student name: Sean Naidoo
+Student ID: 69812018
+Student number: 34567
+Diploma name: Garden Design
+
+G1: 69
+G2: 45
+G3: 66
+G4: 57
+G5: 50
+AVERAGE MARK: 57.4
+
