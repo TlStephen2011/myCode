@@ -3,9 +3,8 @@
 #include <string>
 using namespace std;
 
-class Book
-{
-public:
+class Book {
+ public:
   Book();
   Book(string t, string a, float p, int s);
   ~Book();
@@ -20,11 +19,11 @@ public:
   float getPrice() const;
   int getStock() const;
 
-private:
+ private:
   string title;
   string author;
   float price;
   int amntInStock;
 };
 
-#endif // BOOKS_H
+#endif  // BOOKS_H

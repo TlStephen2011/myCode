@@ -5,49 +5,29 @@
 using namespace std;
 
 // default constructor
-Employee::Employee()
-{
-	firstName = "";
-	lastName = "";
-	salary = 0;
+Employee::Employee() {
+  firstName = "";
+  lastName = "";
+  salary = 0;
 }
 
-//overloaded constructor
-Employee::Employee(string f, string l, float s)
-{
-	firstName = f;
-	lastName = l;
-	salary = s;
+// overloaded constructor
+Employee::Employee(string f, string l, float s) {
+  firstName = f;
+  lastName = l;
+  salary = s;
 }
 
-//mutators
-void Employee::setFirstName(string f)
-{
-	firstName = f;
-}
+// mutators
+void Employee::setFirstName(string f) { firstName = f; }
 
-void Employee::setLastName(string l)
-{
-	lastName = l;
-}
+void Employee::setLastName(string l) { lastName = l; }
 
-void Employee::setSalary(float s)
-{
-	salary = s;
-}
+void Employee::setSalary(float s) { salary = s; }
 
-//accessors
-string Employee::getFirstName()
-{
-	return firstName;
-}
+// accessors
+string Employee::getFirstName() { return firstName; }
 
-string Employee::getLastName()
-{
-	return lastName;
-}
+string Employee::getLastName() { return lastName; }
 
-float Employee::getSalary()
-{
-	return salary;
-}
+float Employee::getSalary() { return salary; }

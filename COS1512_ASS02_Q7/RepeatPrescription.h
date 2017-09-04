@@ -1,13 +1,11 @@
 #ifndef REPEATPRESCRIPTION_H
 #define REPEATPRESCRIPTION_H
 
-#include "Prescription.h"
 #include <iostream>
+#include "Prescription.h"
 
 using namespace std;
 
-class RepeatPrescription
-{
-};
+class RepeatPrescription {};
 
-#endif //REPEATPRESCRIPTION_H
+#endif  // REPEATPRESCRIPTION_H
