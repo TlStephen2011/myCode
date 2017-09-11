@@ -57,7 +57,9 @@ void Team::update(int pNew, int gfNew, int gaNew) {
 
 // overloaded operators as friends of Team class
 bool operator==(const Team &Team1, const Team &Team2) {
-  if (Team1.points == Team2.points) {
+  if ((Team1.points == Team2.points) &&
+      (Team1.goalsFor - Team1.goalsAgainst) ==
+          (Team2.goalsFor - Team2.goalsAgainst)) {
     return true;
   } else {
     return false;

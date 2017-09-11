@@ -9,8 +9,7 @@ int main() {
   cout << home << endl;
   cout << opponent << endl;
 
-  if (home == opponent &&
-      home.calcGoalDifference() == opponent.calcGoalDifference()) {
+  if (home == opponent) {
     cout << "This is a tie!" << endl;
   } else if (home > opponent) {
     home = ++home;
@@ -41,8 +40,7 @@ int main() {
   home.update(3, h, a);
   newOpponent.update(0, a, h);
 
-  if (home == newOpponent &&
-      home.calcGoalDifference() == newOpponent.calcGoalDifference()) {
+  if (home == newOpponent) {
     cout << "This is a tie!" << endl;
   } else if (home > newOpponent) {
     ++home;
