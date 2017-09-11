@@ -77,7 +77,7 @@ bool operator>(const Team &Team1, const Team &Team2) {
 }
 
 Team operator++(Team &Team1) {
-  ++(Team1.round);
+  ++Team1.round;
   return Team1;
 }
 
